@@ -8,9 +8,9 @@
     height: 300px;
     border-radius: 40px;
     background-color: #FAFCFC;
-    margin-top: 15px;
+
   }
-  /*
+  
   .border-wrap {
     background:  linear-gradient(
       135deg,
@@ -21,7 +21,7 @@
     height: 308px;
     border-radius: 40px;
   }
-  */
+
   .StripeElement {
     margin: 25px auto;
     margin-bottom: 45px;

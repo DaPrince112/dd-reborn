@@ -1,13 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Payment from '../src/components/PaymentContainer/Payment.js';
 import './App.css';
-import Header from './components/HeaderSocialContainer/Header'; 
 
 function App() {
   return (
+    <Router>
     <div className="App">
+      <Switch>
+        <Route exact path='/' component={Payment} />
+      </Switch>
      
     </div>
+  </Router>
   );
 }
 

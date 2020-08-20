@@ -41,6 +41,10 @@ export default class UserHome extends Component{
                              <div className = "MyPay">
                     <h5><Link to="user/payments" className="user-link">Payment</Link></h5>
                     </div>
+                    <hr/>
+                    <div className = "MyPay">
+                    <h5><Link to="user/DonationDetails" className="user-link">Donation Details</Link></h5>
+                    </div>
                     </center>
                     <center>
                     <hr/>
